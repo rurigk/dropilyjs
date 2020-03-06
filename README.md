@@ -25,7 +25,9 @@ select.addEventListener('change', () => {
 ```
 
 #### Update the options
+
 This is useful when you modify the options in the original select or when the selectedIndex is changed by code
+
 ```javascript
 var select = document.querySelector('.cssSelector');
 var dropdown = new Dropily(select);
@@ -34,6 +36,7 @@ dropdown.Update();
 ```
 
 #### Select a option
+
 ```javascript
 var select = document.querySelector('.cssSelector');
 var dropdown = new Dropily(select);
@@ -42,6 +45,7 @@ dropdown.Select(0);
 ```
 
 #### Open or close the dropdown
+
 ```javascript
 // Open the dropdown
 dropdown.Open();
@@ -52,6 +56,33 @@ dropdown.Toggle();
 ```
 
 #### Remove the custom dropdown and restore the original select
+
 ```javascript
 dropdown.Remove();
 ```
+
+## For build
+
+### Build lib
+
+```console
+$ yarn install ## or npm
+$ yarn build
+```
+
+### Build example
+
+```console
+$ yarn install ## or npm
+$ yarn build:example
+```
+
+## Authors
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/rurigk"><img src="https://avatars3.githubusercontent.com/u/6665402?s=460&v=4" width="100px;" alt="Isaías Santana"/><br /><sub><b>rurigk</b></td>
+ 
+   <td align="center"><a href="https://github.com/osirisfrik"><img src="https://avatars2.githubusercontent.com/u/9331532?s=400&v=4" width="100px;" alt="Will Filho"/><br /><sub><b>OsirisFrik</b></td>
+  </tr>
+</table>
