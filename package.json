@@ -26,9 +26,6 @@
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
   },
-  "dependencies": {
-    "dropilyjs": "^1.0.0"
-  },
   "contributors": [
     {
       "name": "OsirisFrik",
