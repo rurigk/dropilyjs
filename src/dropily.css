@@ -1,0 +1,135 @@
+.Dropily_SelectBox
+{
+	/* Color of the select */
+	--bg-color: #FFF;
+	--border-color: #DDD;
+	--arrow-color: #a5a5a5;
+
+	/* Color of the options box */
+	--options-bg-color: #FFF;
+	--options-border-color: #DDD;
+
+	/* Color of the option */
+	--option-bg: #FFF;
+	--option-border-color: #DDD;
+	--text: #000;
+
+	--hover-bg: #149ddc;
+	--hover-border-color: #DDD;
+	--hover-text: #FFF;
+
+	--selected-bg: #149ddc;
+	--selected-border-color: #DDD;
+	--selected-text: #FFF;
+
+	--selected-hover-bg: #149ddc;
+	--selected-hover-border-color: #DDD;
+	--selected-hover-text: #FFF;
+
+	--disabled-bg: #DDD;
+	--disabled-border-color: #DDD;
+	--disabled-text: #CCC;
+}
+
+.Dropily_SelectBox
+{
+	display: inline-block;
+	font: 400 14px sans-serif;
+	position: relative;
+	width: 20em;
+}
+
+.Dropily_SelectBox_Title
+{
+	color: var(--text);
+	background: var(--bg-color);
+	border: 1px groove var(--border-color);
+	box-sizing: border-box;
+	cursor: pointer;
+	font: 400 14px sans-serif;
+	height: 3em;
+	padding: 0.5em;
+	position: relative;
+	text-align: left;
+	width: 100%;
+}
+
+.Dropily_SelectBox_Title:after {
+	border-color: var(--arrow-color) transparent transparent transparent;
+	border-style: solid;
+	border-width: 6px 6px;
+	content: '';
+	display: block;
+	height: 0;
+	position: absolute;
+	right: 1em;
+	top: 45%;
+	width: 0;
+}
+
+.Dropily_SelectBox_Options{
+	background: var(--options-bg-color);
+	border-left: 1px solid var(--options-border-color);
+	border-right: 1px solid var(--options-border-color);
+	box-sizing: border-box;
+	display: block;
+	height: auto;
+	max-height: 400px;
+	list-style: none;
+	margin: 0px;
+	opacity: 0px;
+	padding: 0px;
+	position: absolute;
+	transition: 0.2s linear;
+	width: 100%;
+	z-index: 999;
+	overflow-y: scroll;
+}
+
+.Dropily_SelectBox_Options[hidden]
+{
+	display: none;
+	height: 0px;
+}
+
+.Dropily_SelectBox_Option{
+	background-color: var(--option-bg);
+	border-bottom: 1px solid var(--option-border-color);
+	cursor: pointer;
+	padding: 1em 0.5em;
+	user-select: none;
+}
+
+.Dropily_SelectBox_Option:hover {
+	background-color: var(--hover-bg);
+	border-bottom: 1px solid transparent;
+	color: var(--hover-text);
+}
+
+.Dropily_SelectBox_Option[selected] {
+	background-color: var(--selected-bg);
+	border-bottom: 1px solid transparent;
+	color: var(--selected-text);
+}
+
+.Dropily_SelectBox_Option[selected]:hover {
+	background-color: var(--selected-hover-bg);
+	border-bottom: 1px solid transparent;
+	color: var(--selected-hover-text);
+}
+
+.Dropily_SelectBox_Option[disabled] {
+	background-color: var(--disabled-bg);
+	border-bottom: 1px solid transparent;
+	color: var(--disabled-text);
+}
+
+.Dropily_SelectBox_Option[disabled]:hover {
+	background-color: var(--disabled-bg);
+	border-bottom: 1px solid transparent;
+	color: var(--disabled-text);
+}
+
+.Dropily_SelectBox_Option[hidden] {
+	display: none;
+}
