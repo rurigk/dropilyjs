@@ -164,3 +164,5 @@ class Dropily
 		this._ShowOriginalSelect();
 	}
 }
+
+module.exports = Dropily;

@@ -1,0 +1,35 @@
+{
+  "name": "dropily.js",
+  "version": "1.0.0",
+  "description": "simple dropdown library",
+  "main": "src/dropily.js",
+  "scripts": {
+    "build:example": "npx webpack --config webpack.config.js --example",
+    "build": "npx webpack --config webpack.config.js --dropily"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rurigk/dropilyjs.git"
+  },
+  "keywords": [
+    "js",
+    "dropdown",
+    "library"
+  ],
+  "author": "rurigk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rurigk/dropilyjs/issues"
+  },
+  "homepage": "https://github.com/rurigk/dropilyjs#readme",
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "contributors": [
+    {
+      "name": "OsirisFrik",
+      "url": "https://osirisfrik.github.io/"
+    }
+  ]
+}
