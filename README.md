@@ -81,8 +81,8 @@ $ yarn build:example
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/rurigk"><img src="https://avatars3.githubusercontent.com/u/6665402?s=460&v=4" width="100px;" alt="Isaías Santana"/><br /><sub><b>rurigk</b></td>
+    <td align="center"><a href="https://github.com/rurigk"><img src="https://avatars3.githubusercontent.com/u/6665402?s=460&v=4" width="100px;" alt="rurigk"/><br /><sub><b>rurigk</b></td>
  
-   <td align="center"><a href="https://github.com/osirisfrik"><img src="https://avatars2.githubusercontent.com/u/9331532?s=400&v=4" width="100px;" alt="Will Filho"/><br /><sub><b>OsirisFrik</b></td>
+   <td align="center"><a href="https://github.com/osirisfrik"><img src="https://avatars2.githubusercontent.com/u/9331532?s=400&v=4" width="100px;" alt="OsirisFrik"/><br /><sub><b>OsirisFrik</b></td>
   </tr>
 </table>
