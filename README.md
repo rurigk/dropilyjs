@@ -44,6 +44,17 @@ var dropdown = new Dropily(select);
 dropdown.Select(0);
 ```
 
+#### Get the index of an option by their value
+
+```javascript
+var select = document.querySelector('.cssSelector');
+var dropdown = new Dropily(select);
+// Get the index
+var index = dropdown.GetIndex('somevalue');
+// Select the option
+dropdown.Select(index);
+```
+
 #### Open or close the dropdown
 
 ```javascript

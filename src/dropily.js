@@ -157,6 +157,17 @@ class Dropily
 		this.Update();
 	}
 
+	GetIndex(value)
+	{
+		for (let i = 0; i < this.originalSelect.options.length; i++) {
+			if(this.originalSelect.options[i].innerHTML == value)
+			{
+				return i;
+			}
+		}
+		return -1;
+	}
+
 	Remove()
 	{
 		this._RemoveElementsCache();
@@ -164,5 +175,3 @@ class Dropily
 		this._ShowOriginalSelect();
 	}
 }
-
-module.exports = Dropily;
